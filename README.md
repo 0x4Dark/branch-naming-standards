@@ -4,7 +4,7 @@ GitHub action for branching standards & conventions.action
 
 ## Usage
 ```yaml
-uses markheumueller/branch-naming-standards@v1
+uses: markheumueller/branch-naming-standards@v1
   with:
     regex: '^[a-zA-Z]+\/[a-zA-Z]*$'
     ignore_branches: 'master'
