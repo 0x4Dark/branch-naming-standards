@@ -1,0 +1,23 @@
+name: 'Branch Naming Standards'
+description: 'GitHub action for branching standards & conventions'
+author: 'markheumueller'
+inputs:
+  regex:
+    description: 'Regex naming schema'
+    required: true
+  ignore_branches:
+    description: 'List of branches for which the standards are not applied'
+    required: false
+    default: 'master'
+  ignore_users:
+    description: 'List of users whose branches are not covered by the standards'
+    required: false
+  allowed_prefixes:
+    description: 'List of allowed branch prefixes'
+    required: false
+  issue_tracker:
+    description: 'Must have a certain ID prefix in the name'
+    required: false
+runs:
+  using: 'node12'
+  main: 'main.js'
