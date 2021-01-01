@@ -1,6 +1,6 @@
 {
   "name": "branch-naming-standards",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GitHub action for branching standards & conventions",
   "main": "index.js",
   "scripts": {
